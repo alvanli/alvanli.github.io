@@ -437,36 +437,46 @@ a.nav-link.iconB {
   color: #fff;
 }
 
-div.col-5 {
+div.col-4 {
   text-align: center;
   margin: auto;
   padding: 0;
   width: 100%;
-  font-size: 5vw;
+  font-size: 60px;;
 }
 
-div.col-5:hover {
+div.col-4:hover {
   color: #003b6f;
   background-color: #fff;
 }
 
-.col-5 a {
+.col-4 a {
   color: white;
 }
 
-.col-5 a:hover {
+.col-4 a:hover {
   color: #003b6f;
 }
 
+#bottomRow{
+  margin-bottom: 50px;
+
+}
 @media only screen and (max-width: 700px) {
   #myPhoto {
     max-width: 100%;
-    width: 80%;
+    width: 50%;
   }
   .content{
     font-weight: normal;
   }
   .containerGallery {
     width: 85%;
+  }
+  #bottomRow{
+    height: 80px;
+  }
+  .col-4{
+    font-size: 7vw;
   }
 }
