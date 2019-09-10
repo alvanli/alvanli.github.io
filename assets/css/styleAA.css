@@ -11,6 +11,9 @@ html, body {
   .content{
     font-weight: normal;
   }
+  .containerGallery {
+    width: 85%;
+  }
 }
 
 .moveObj {
