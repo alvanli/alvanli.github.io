@@ -5,7 +5,8 @@ html, body {
 
 @media only screen and (max-width: 400px) {
   #myPhoto {
-    width: 70%;
+    max-width: 100%;
+    width: 90%;
   }
   .content{
     font-weight: normal;

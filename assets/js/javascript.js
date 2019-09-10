@@ -51,9 +51,9 @@ jQuery(document).ready(function($) {
 
       $(".mySlidesL").css("height", "300px");
       $(".textSlidesL").css("top", "15%");
-      $(".textSlidesL").css("left", "40%");
-      $(".descSlidesL").css("left", "40%");
-      $(".descSlidesL").css("max-width", "90%");
+      $(".textSlidesL").css("left", "30%");
+      $(".descSlidesL").css("left", "30%");
+      $(".descSlidesL").css("width", "90%");
     } else if (ww >= 768) {
       $(".nav-item").not(".dropdown").removeClass("hideThis");
       $(".dropdown").addClass("hideThis");
@@ -62,7 +62,7 @@ jQuery(document).ready(function($) {
       $(".textSlidesL").css("top", "45%");
       $(".textSlidesL").css("left", "30%");
       $(".descSlidesL").css("left", "65%");
-      $(".descSlidesL").css("max-width", "40%");
+      $(".descSlidesL").css("width", "40%");
     };
   };
   $(window).resize(function() {
