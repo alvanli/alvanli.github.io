@@ -51,10 +51,10 @@ jQuery(document).ready(function($) {
 
       $(".mySlidesL").css("height", "300px");
       $(".textSlidesL").css("top", "15%");
-      $(".textSlidesL").css("left", "40%");
+      $(".textSlidesL").css("left", "50%");
       $(".textSlidesL").css("text-align", "center");
-      $(".descSlidesL").css("left", "40%");
-      $(".descSlidesL").css("width", "85%");
+      $(".descSlidesL").css("left", "45%");
+      $(".descSlidesL").css("width", "80%");
 
     } else if (ww >= 768) {
       $(".nav-item").not(".dropdown").removeClass("hideThis");
