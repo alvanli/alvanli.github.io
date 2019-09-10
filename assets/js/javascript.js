@@ -51,9 +51,9 @@ jQuery(document).ready(function($) {
 
       $(".mySlidesL").css("height", "300px");
       $(".textSlidesL").css("top", "15%");
-      $(".textSlidesL").css("left", "50%");
-      $(".descSlidesL").css("left", "50%");
-      $(".descSlidesL").css("width", "90%");
+      $(".textSlidesL").css("left", "40%");
+      $(".descSlidesL").css("left", "40%");
+      $(".descSlidesL").css("max-width", "90%");
     } else if (ww >= 768) {
       $(".nav-item").not(".dropdown").removeClass("hideThis");
       $(".dropdown").addClass("hideThis");
@@ -62,7 +62,7 @@ jQuery(document).ready(function($) {
       $(".textSlidesL").css("top", "45%");
       $(".textSlidesL").css("left", "30%");
       $(".descSlidesL").css("left", "65%");
-      $(".descSlidesL").css("width", "40%");
+      $(".descSlidesL").css("max-width", "40%");
     };
   };
   $(window).resize(function() {
@@ -131,7 +131,7 @@ window.onscroll = function() {
     $(".nav-link").removeClass("active");
     $(".nav-link:eq(3)").addClass("active");
   }
-  if ($(document).scrollTop() > 200) {
+  if ($(document).scrollTop() > 100) {
     $(".moveObj").css("opacity", "0");
   } else {
     $(".moveObj").css("opacity", "0.2");

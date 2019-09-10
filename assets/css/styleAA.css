@@ -3,6 +3,15 @@ html, body {
   overflow-x: hidden;
 }
 
+@media only screen and (max-width: 400px) {
+  #myPhoto {
+    width: 70%;
+  }
+  .content{
+    font-weight: normal;
+  }
+}
+
 .moveObj {
   width: 100px;
   height: 100px;
@@ -382,7 +391,7 @@ body {
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-  size: 50%
+  width: 50%
 }
 
 .blocky {
