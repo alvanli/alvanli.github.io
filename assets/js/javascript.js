@@ -51,9 +51,11 @@ jQuery(document).ready(function($) {
 
       $(".mySlidesL").css("height", "300px");
       $(".textSlidesL").css("top", "15%");
-      $(".textSlidesL").css("left", "50%");
-      $(".descSlidesL").css("left", "50%");
+      $(".textSlidesL").css("left", "40%");
+      $(".textSlidesL").css("text-align", "center");
+      $(".descSlidesL").css("left", "40%");
       $(".descSlidesL").css("width", "85%");
+
     } else if (ww >= 768) {
       $(".nav-item").not(".dropdown").removeClass("hideThis");
       $(".dropdown").addClass("hideThis");
@@ -61,6 +63,7 @@ jQuery(document).ready(function($) {
       $(".mySlidesL").css("height", "200px");
       $(".textSlidesL").css("top", "45%");
       $(".textSlidesL").css("left", "30%");
+      $(".textSlidesL").css("text-align", "left");
       $(".descSlidesL").css("left", "65%");
       $(".descSlidesL").css("width", "40%");
     };
