@@ -50,10 +50,10 @@ jQuery(document).ready(function($) {
       $(".dropdown").removeClass("hideThis");
 
       $(".mySlidesL").css("height", "300px");
-      $(".textSlidesL").css("top", "25%");
+      $(".textSlidesL").css("top", "15%");
       $(".textSlidesL").css("left", "50%");
       $(".descSlidesL").css("left", "50%");
-      $(".descSlidesL").css("width", "60%");
+      $(".descSlidesL").css("width", "90%");
     } else if (ww >= 768) {
       $(".nav-item").not(".dropdown").removeClass("hideThis");
       $(".dropdown").addClass("hideThis");
