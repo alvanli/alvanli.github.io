@@ -3,18 +3,6 @@ html, body {
   overflow-x: hidden;
 }
 
-@media only screen and (max-width: 700px) {
-  #myPhoto {
-    max-width: 100%;
-    width: 80%;
-  }
-  .content{
-    font-weight: normal;
-  }
-  .containerGallery {
-    width: 85%;
-  }
-}
 
 .moveObj {
   width: 100px;
@@ -468,4 +456,17 @@ div.col-5:hover {
 
 .col-5 a:hover {
   color: #003b6f;
+}
+
+@media only screen and (max-width: 700px) {
+  #myPhoto {
+    max-width: 100%;
+    width: 80%;
+  }
+  .content{
+    font-weight: normal;
+  }
+  .containerGallery {
+    width: 85%;
+  }
 }
