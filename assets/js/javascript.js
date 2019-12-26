@@ -50,12 +50,10 @@ jQuery(document).ready(function($) {
       $(".dropdown").removeClass("hideThis");
 
       $(".mySlidesL").css("height", "300px");
-      $(".textSlidesL").css("top", "15%");
+      $(".textSlidesL").css("top", "25%");
       $(".textSlidesL").css("left", "50%");
-      $(".textSlidesL").css("text-align", "center");
-      $(".descSlidesL").css("left", "45%");
-      $(".descSlidesL").css("width", "80%");
-
+      $(".descSlidesL").css("left", "50%");
+      $(".descSlidesL").css("width", "60%");
     } else if (ww >= 768) {
       $(".nav-item").not(".dropdown").removeClass("hideThis");
       $(".dropdown").addClass("hideThis");
@@ -63,7 +61,6 @@ jQuery(document).ready(function($) {
       $(".mySlidesL").css("height", "200px");
       $(".textSlidesL").css("top", "45%");
       $(".textSlidesL").css("left", "30%");
-      $(".textSlidesL").css("text-align", "left");
       $(".descSlidesL").css("left", "65%");
       $(".descSlidesL").css("width", "40%");
     };
@@ -134,7 +131,7 @@ window.onscroll = function() {
     $(".nav-link").removeClass("active");
     $(".nav-link:eq(3)").addClass("active");
   }
-  if ($(document).scrollTop() > 100) {
+  if ($(document).scrollTop() > 200) {
     $(".moveObj").css("opacity", "0");
   } else {
     $(".moveObj").css("opacity", "0.2");
