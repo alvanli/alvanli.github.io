@@ -1,3 +1,53 @@
+#project{
+
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 220px;
+  height: 220px;
+  perspective: 1000px;
+  margin:auto;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+  padding:10%;
+}
+
+.flip-card-back p{
+  font-size:12px;
+}
+
+
 html, body {
   max-width: 100%;
   overflow-x: hidden;
@@ -156,7 +206,7 @@ a:not([href]):not([tabindex]) {
   background-color: #003b6f;
   top: 0;
   bottom: 0;
-  left: 50%;
+  left: 20%;
   margin-left: -3px;
 }
 
@@ -166,7 +216,7 @@ a:not([href]):not([tabindex]) {
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
-  width: 50%;
+  width: 80%;
   cursor: pointer;
 }
 
@@ -194,7 +244,7 @@ a:not([href]):not([tabindex]) {
 /* Place the container to the right */
 
 .right {
-  left: 50%;
+  left: 20%;
 }
 
 /* Add arrows to the left container (pointing right) */
@@ -339,6 +389,11 @@ a:not([href]):not([tabindex]) {
 h1 {
   text-align: center;
   padding: 30px;
+  font-size:30px;
+}
+
+h2{
+  font-size:20px;
 }
 
 body {
