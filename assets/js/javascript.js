@@ -49,16 +49,13 @@ jQuery(document).ready(function($) {
       $(".nav-item").not(".dropdown").addClass("hideThis");
       $(".dropdown").removeClass("hideThis");
 
-      $(".mySlidesL").css("height", "300px");
-      $(".textSlidesL").css("top", "25%");
-      $(".textSlidesL").css("left", "50%");
+      $(".textSlidesL").css("top", "20%");
+      $(".textSlidesL").css("left", "40%");
       $(".descSlidesL").css("left", "50%");
       $(".descSlidesL").css("width", "60%");
     } else if (ww >= 768) {
       $(".nav-item").not(".dropdown").removeClass("hideThis");
       $(".dropdown").addClass("hideThis");
-
-      $(".mySlidesL").css("height", "200px");
       $(".textSlidesL").css("top", "45%");
       $(".textSlidesL").css("left", "30%");
       $(".descSlidesL").css("left", "65%");
