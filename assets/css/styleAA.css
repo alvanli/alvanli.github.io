@@ -59,6 +59,7 @@
   color: white;
   transform: rotateY(180deg);
   padding:10%;
+background-image: linear-gradient(45deg, #0000006e, transparent);
 }
 
 .flip-card-back p{
