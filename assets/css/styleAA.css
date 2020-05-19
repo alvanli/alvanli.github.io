@@ -2,6 +2,24 @@
 
 }
 
+.row h2 a{
+    color: #f1f1f1;
+    font-size: 30px;
+}
+
+.row h2 a:hover{
+    color: black;
+}
+
+.projectBLOCK li a{
+   color: #72ffff; 
+   text-decoration: underline;
+}
+
+.projectBLOCK li a:hover{
+    text-decoration: overline;
+}
+
 .flip-card {
   background-color: transparent;
   width: 250px;
@@ -44,7 +62,7 @@
 }
 
 .flip-card-back p{
-  font-size:12px;
+    font-size: 15px;
 }
 
 
